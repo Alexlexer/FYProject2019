@@ -1,0 +1,13 @@
+Pre requests to run this application are Node.js last version, and local instaletion of yarn
+after all instaletions are made follow steps to connect application to you OKTA account.
+to connect to this application you will need to create OKTA developer account at https://developer.okta.com/signup/
+its free to use with out need to provide any unecesery information.
+save you OKTA org url in .env.local file (its located in root folder of application) in feild as follow EACT_APP_OKTA_ORG_URL={YOUR OCTA URL}
+this url is in right upper corner in dashboard page 
+Create application with name My React App and replace port in URI feilds too 3000.
+Save the application and copy you Client ID and paste it in .enc.local file in feild REACT_APP_OKTA_CLIENT_ID={CLIENT ID}.
+After that open power shell and navigate to root folder of the application. 
+Run: npm i yarn --save to save yarn in local directory of app
+next run: yarn init
+and last comand: yarn start
+this will launch application on port 3000 and server on port 3001 on your localhost
